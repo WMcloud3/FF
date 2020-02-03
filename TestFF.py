@@ -7,6 +7,11 @@ print(df)
 
 print(df[['Name','FavoriteFridge1']])
 
+print(df[df['Name'] == 'Jill'])
+
+print(df[df['Name'] == 'Candice'])
+
+print(df[df['Name'] == 'Alycia'])
 
 
 # write to csv file
